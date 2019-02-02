@@ -1,0 +1,5 @@
+gradle.projectsLoaded { Gradle gradle ->
+    gradle.rootProject {
+        group = 'com.github.warlordofmars'
+   }
+}

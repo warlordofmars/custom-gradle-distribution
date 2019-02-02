@@ -1,0 +1,31 @@
+gradle.projectsLoaded { Gradle gradle ->
+    gradle.rootProject {
+        
+        buildscript {
+            repositories {
+                mavenLocal()
+                mavenCentral()
+                jcenter()
+                maven { 
+                    url "https://jitpack.io"
+                }
+                maven {
+                    url "https://plugins.gradle.org/m2/" 
+                }
+            }
+        }
+
+        repositories {
+            mavenLocal()
+            mavenCentral()
+            jcenter()
+            maven { 
+                url "https://jitpack.io"
+            }
+            maven {
+                url "https://plugins.gradle.org/m2/" 
+            }
+        }
+        
+    }
+}
