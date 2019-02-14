@@ -76,3 +76,8 @@ Then update the wrapper in the same way as described above:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowlegements
+
+* Based off of [gradle-custom-distribution](https://github.com/bmuschko/gradle-custom-distribution) from [bmuschko](https://github.com/bmuschko)
+* Using the [warlordofmars](https://github.com/warlordofmars) gradle plugin, [gradle-release-helper](https://github.com/warlordofmars/gradle-release-helper), for automatic versioning, git tagging, and publishing of releases to GitHub
