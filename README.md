@@ -1,5 +1,7 @@
 # warlordofmars-gradle
 
+![current release](https://img.shields.io/github/release/warlordofmars/warlordofmars-gradle.svg?style=flat)
+
 ## Overview
 
 Custom Gradle distribution for warlordofmars projects to apply some sane defaults in order to avoid duplication.
